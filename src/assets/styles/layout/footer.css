@@ -1,0 +1,27 @@
+.footer {
+  color: #f0fafa;
+  font-family: "Humanist 521",arial;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: var(--text-note);
+  text-align: center;
+  background-color: var(--primary-1);
+    font-size: 16px;
+}
+
+.footer a {
+  text-decoration:none;
+  color: inherit;
+  margin-left:20px;
+
+}
+
+.footer img{
+ width: 40px;
+ padding-bottom: 2%;
+
+}
+
+.footer a:hover {
+  color:var(--primary-1);
+}

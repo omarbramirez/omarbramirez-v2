@@ -1,0 +1,311 @@
+.about-slide1 {
+    height: fit-content;
+    text-align: right;
+    width: 60%;
+    margin-left: 30%;
+    margin-right: 10%;
+  }
+
+  @media (max-width: 950px){
+    .about-slide1{
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+    }
+  }
+
+.about-slide1 h1{
+    line-height: 95%;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-size: var(--text-display);
+  }
+  
+  @media (max-width: 900px){
+    .about-slide1 h1{
+      margin-top: 20%;
+      text-align: center;
+      font-size: var(--text-title);
+    }
+  }
+
+  .about-slide1 p{
+    text-align: left;
+    margin-bottom: auto;
+    font-size: var(--text-subheader);
+    line-height: 95%;
+  }
+
+  @media (max-width: 900px){
+    .about-slide1 p{
+      text-align: center;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }} 
+
+    .about-slide1B { /*Secunda columna */
+        height: fit-content;
+        text-align: right;
+        width: 60%;
+        margin-left: 10%;
+        margin-right: 30%;
+      }
+    
+      @media (max-width: 950px){
+        .about-slide1B{
+          width: 90%;
+          margin-left: 5%;
+          margin-right: 5%;
+          text-align: center;
+        }
+      }
+    
+
+
+    .about-slide1B img{
+        width: 80%;
+        margin-left: 0%;
+        margin-right: 20%;
+        border-radius: 100%;
+
+    }
+
+@media (max-width: 900px) {
+    .about-slide1B img{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;  
+    }
+}
+
+.about-slide1B p{
+    text-align: left;
+    margin-bottom: auto;
+    font-size: var(--text-subheader);
+    line-height: 95%;
+  }
+
+  @media (max-width: 900px){
+    .about-slide1B p{
+      text-align: center;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }} 
+
+/**    
+    .about-slide1B .social {
+        width: 30%;
+    }
+
+    @media (max-width: 900px) {
+        .about-slide1B .social {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    }
+
+.about-slide1B .social img {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 60px;
+}
+
+**/
+
+/***************************************************************FIN PARTE UNO */
+/***************************************************************PARTE DOS */
+
+.unique {
+  color: var(--primary-2);
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 5%;
+  font-family: var(--font-1);
+  font-size: var(--text-headline);
+}
+
+.graphic {
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+.graphic {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+
+  }
+}
+
+.about-slide2 .graphic .one{
+    display: inline-block;
+    text-align: center;
+    margin: 4%;
+    width: 200px;
+    height: 200px;
+    font-family: "Humanist 521",arial;
+    font-size: var(--text-subheader);
+    border-radius: 100%;
+    background-color: var(--primary-5);
+    overflow: hidden;
+    transition: transform .2s; /* Animation */
+}
+
+.about-slide2 .graphic .one:hover {
+    background-color: var(--primary-2);
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.about-slide2 .graphic .one h2{
+    height: 50%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+
+}
+
+.about-slide2 .graphic .one h2:hover{
+    color:  #f0fafa;
+}
+
+
+.about-slide2 .graphic .two{
+    display: inline-block;
+    margin: 4%;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    font-family: "Humanist 521",arial;
+    font-size: var(--text-subheader);
+    border-radius: 100%;
+    background-color: var(--primary-5);
+    overflow: hidden;
+    transition: transform .2s; /* Animation */
+}
+
+.about-slide2 .graphic .two:hover {
+    background-color: var(--primary-2);
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.about-slide2 .graphic .two h2{
+    height: 50%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+
+}
+
+.about-slide2 .graphic .two h2:hover{
+    color:  #f0fafa;
+}
+
+
+.about-slide2 .graphic .three{
+    display: inline-block;
+    text-align: center;
+    margin: 4%;
+    width: 300px;
+    height: 300px;
+    font-family: "Humanist 521",arial;
+    font-size: var(--text-subheader);
+    border-radius: 100%;
+    background-color: var(--primary-5);
+    overflow: hidden;
+    transition: transform .2s; /* Animation */
+}
+
+.about-slide2 .graphic .three:hover {
+    background-color: var(--primary-2);
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.about-slide2 .graphic .three h2{
+    height: 50%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+
+}
+
+.about-slide2 .graphic .three h2:hover{
+    color:  #f0fafa;
+}
+
+    
+.about-slide2 .graphic .four{
+    display: inline-block;
+    text-align: center;
+    margin: 4%;
+    width: 250px;
+    height: 250px;
+    font-family: "Humanist 521",arial;
+    font-size: var(--text-subheader);
+    border-radius: 100%;
+    background-color: var(--primary-5);
+    overflow: hidden;
+    transition: transform .2s; /* Animation */
+}
+
+.about-slide2 .graphic .four:hover {
+    background-color: var(--primary-2);
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.about-slide2 .graphic .four h2{
+    height: 50%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+
+}
+
+.about-slide2 .graphic .four h2:hover{
+    color:  #f0fafa;
+}
+
+/***************************************************************FIN PARTE DOS */
+
+/***************************************************************PARTE TRES */
+
+.about-slide3 {
+    background-color: var(--primary-5);
+    width: 100%;
+    text-align: center;
+    font-family: "Humanist 521",arial;
+    line-height: 95%;
+    font-size: var(--text-subheader);
+
+    font-family: var(--font-1);
+}
+
+.about-slide3 h1 {
+  color: #f0fafa;
+  margin-top: 5%;
+  margin-bottom:5%;
+  font-size: var(--text-headline);
+  font-weight: bold;
+}
+
+.about-slide3 h2 {
+  line-height: 95%;
+    line-height: 95%;
+    
+}
+
+.about-slide3 p {
+    font-weight: none;
+}
+
+.about-slide3 img {
+    width: 60px;
+}
+
+.finaldos {
+  background-color: var(--primary-5);
+}

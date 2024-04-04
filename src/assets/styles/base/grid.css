@@ -1,0 +1,19 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  background-color: #f0fafa;
+}
+.container {
+
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: var(--grid-main);
+  grid-auto-rows: min-content;
+  grid-gap: 0 var(--grid-gap);
+}

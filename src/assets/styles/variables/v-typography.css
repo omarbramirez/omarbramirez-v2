@@ -1,0 +1,30 @@
+html {
+  /* Familias tipográficas*/
+  --font-1: "Humanist 521",arial;
+  --font-2: "Humanist521BT-Light", sans-serif; 
+
+  /* Variables tipográficas */
+
+  --text-caption: 12px;
+  --text-note: 14px;
+  --text-base: 24px;
+  --text-subheader: 36px;
+  --text-title: 42px;
+  --text-headline: 48px;
+  --text-display: 64px;
+  --text-jumbo: 82px;
+}
+
+@media (max-width:700px){
+    /* Variables tipográficas */
+html {
+    --text-caption: 12px;
+    --text-note: 14px;
+    --text-base: 16px;
+    --text-subheader: 20px;
+    --text-title: 24px;
+    --text-headline: 26px;
+    --text-display: 30px;
+    --text-jumbo: 32px;
+}
+}
