@@ -1,8 +1,8 @@
 .about-slide1 {
     height: fit-content;
     text-align: right;
-    width: 60%;
-    margin-left: 30%;
+    text-align: center;
+    margin-left: 10%;
     margin-right: 10%;
   }
 
@@ -17,10 +17,9 @@
 
 .about-slide1 h1{
     line-height: 95%;
-    text-align: left;
     font-weight: bold;
     color: black;
-    font-size: var(--text-display);
+    font-size: var(--text-title);
   }
   
   @media (max-width: 900px){
@@ -32,9 +31,8 @@
   }
 
   .about-slide1 p{
-    text-align: left;
     margin-bottom: auto;
-    font-size: var(--text-subheader);
+    font-size: var(--text-base);
     line-height: 95%;
   }
 
